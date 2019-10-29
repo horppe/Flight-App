@@ -24,7 +24,7 @@ export default class Dashboard extends Component {
     state = {
        topStates: [],
        allStates: [],
-       modalIsOpen: true
+       modalIsOpen: false
     }
 
     openModal = () => {
